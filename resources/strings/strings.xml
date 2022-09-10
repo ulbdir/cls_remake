@@ -1,0 +1,19 @@
+<strings>
+
+    <string id="AppName">cls_remake</string>
+
+    <string id="ThemeTitle">Color</string>
+
+    <string id="ColorWhite">White</string>
+    <string id="ColorGreen">Green</string>
+    <string id="ColorRed">Red</string>
+
+    <string id="GraphStyleTitle">Graph Style</string>
+    <string id="GraphLine">Line</string>
+    <string id="GraphCandles">Candles</string>
+
+    <string id="GraphTypeTitle">Graph Type</string>
+    <string id="GraphStepHistory">Step History</string>
+    <string id="GraphFTX">FTX</string>
+
+</strings>

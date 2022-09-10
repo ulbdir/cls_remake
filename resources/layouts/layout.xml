@@ -1,0 +1,31 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+    <!-- 
+    <bitmap id="bg" filename="../images/garmin_cls.png" />
+     -->
+    <bitmap id="weekday_frame" filename="../images/garmindev_weekday_frame.png" />
+   
+    <label id="TimeLabel" x="187" y="157" font="@Fonts.font_big" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLACK" />
+    <label id="SecondsLabel" x="188" y="155" font="@Fonts.font_small" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLACK" />
+    <label id="YearLabel" x="190" y="34" font="@Fonts.font_small" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLACK" />
+
+    <label id="CryptoLabel" x="38" y="59" font="@Fonts.font_small_letters" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLACK" text=""/>
+
+    <!--
+    <label id="DayOfWeek_Monday_Label" x="56" y="36" font="@Fonts.font_small_letters" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_LT_GRAY" text="MO" />
+    <label id="DayOfWeek_Tuesday_Label" x="84" y="36" font="@Fonts.font_small_letters" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_LT_GRAY" text="TU" />
+    <label id="DayOfWeek_Wednesday_Label" x="111" y="36" font="@Fonts.font_small_letters" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_LT_GRAY" text="WE" />
+    <label id="DayOfWeek_Thursday_Label" x="43" y="52" font="@Fonts.font_small_letters" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_LT_GRAY" text="TH" />
+    <label id="DayOfWeek_Friday_Label" x="69" y="52" font="@Fonts.font_small_letters" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_LT_GRAY" text="FR" />
+    <label id="DayOfWeek_Saturday_Label" x="93" y="52" font="@Fonts.font_small_letters" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_LT_GRAY" text="SA" />
+    <label id="DayOfWeek_Sunday_Label" x="119" y="52" font="@Fonts.font_small_letters" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_LT_GRAY" text="SU" />
+    -->
+    
+    <label id="Temperature_Label" x="42" y="101" font="@Fonts.font_medium" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" text="22°"/>
+    <label id="Battery_Label" x="188" y="170" font="@Fonts.font_medium" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE"/>
+    <label id="Movebar_Label" x="215" y="148" font="@Fonts.font_medium" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE"/>
+    
+    <label id="Top_Label" x="120" y="11" font="@Fonts.font_small_letters" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" text="Fenix"/>
+    <label id="Bottom_Label" x="120" y="217" font="@Fonts.font_small2" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" text="12378"/>
+    <label id="Bottom_Label2" x="63" y="217" font="@Fonts.font_small_letters" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="STP"/>
+</layout>

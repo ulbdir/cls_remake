@@ -1,0 +1,7 @@
+<properties>
+
+    <property id="Theme" type="number">0</property>
+    <property id="GraphStyle" type="number">0</property>
+    <property id="GraphType" type="number">0</property>
+    
+</properties>

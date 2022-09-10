@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+	<fonts>
+		<font id="font_big" filename="fonts/font_big.fnt"
+			antialias="false" />
+
+		<font id="font_medium" filename="fonts/font_medium.fnt"
+			antialias="false" />
+
+		<font id="font_small" filename="fonts/font_small.fnt"
+			antialias="false" />
+
+		<font id="font_small2" filename="fonts/font_small2.fnt"
+			antialias="false" />
+
+		<font id="font_small_letters" filename="fonts/font_small_letters.fnt"
+			antialias="false" />
+
+		<font id="font_special" filename="fonts/font_special.fnt"
+			antialias="false" filter="0123456789Fenix" />
+
+	</fonts>
+
+    <bitmap id="phone_icon" filename="images/phone_icon.png"/>
+    <bitmap id="steps_icon" filename="images/steps_icon.png"/>
+    
+    <bitmap id="battery_20_icon" filename="images/battery_20.png"/>
+    <bitmap id="battery_40_icon" filename="images/battery_40.png"/>
+    <bitmap id="battery_60_icon" filename="images/battery_60.png"/>
+    <bitmap id="battery_80_icon" filename="images/battery_80.png"/>
+    <bitmap id="battery_100_icon" filename="images/battery_100.png"/>
+    
+    <bitmap id="movebar_0_icon" filename="images/movebar_0.png"/>
+    <bitmap id="movebar_1_icon" filename="images/movebar_1.png"/>
+    <bitmap id="movebar_2_icon" filename="images/movebar_2.png"/>
+    <bitmap id="movebar_3_icon" filename="images/movebar_3.png"/>
+    <bitmap id="movebar_4_icon" filename="images/movebar_4.png"/>
+    <bitmap id="movebar_5_icon" filename="images/movebar_5.png"/>
+
+    <bitmap id="alarms_on" filename="images/alarms_on.png"/>
+    <bitmap id="alarms_off_white" filename="images/alarms_off_white.png"/>
+    <bitmap id="alarms_off_red" filename="images/alarms_off_red.png"/>
+    <bitmap id="alarms_off_green" filename="images/alarms_off_green.png"/>
+
+    <bitmap id="messages_on" filename="images/messages_on.png"/>
+    <bitmap id="messages_off_white" filename="images/messages_off_white.png"/>
+    <bitmap id="messages_off_red" filename="images/messages_off_red.png"/>
+    <bitmap id="messages_off_green" filename="images/messages_off_green.png"/>
+
+	<bitmap id="pattern" filename="images/pattern.png"/>
+
+	<menu2 id="SettingsMenu" title="Settings">
+	    <menu-item id="Colors" label="Colors" />
+		<menu-item id="GraphStyle" label="Graph Style" />
+		<menu-item id="GraphType" label="Graph Type" />
+	</menu2>
+
+	<menu2 id="ColorSettingsMenu" title="Colors">
+	    <menu-item id="White" label="White" />
+	    <menu-item id="Red" label="Red" />
+	    <menu-item id="Green" label="Green" />
+	</menu2>
+
+	<menu2 id="GraphStyleMenu" title="Graph Style">
+		<menu-item id="Line" label="Line" />
+		<menu-item id="Candles" label="Candles" />
+	</menu2>
+
+	<menu2 id="GraphTypeMenu" title="Graph Type">
+		<menu-item id="Steps" label="Step History" />
+		<menu-item id="FTX" label="FTX" />
+	</menu2>
+
+</resources>
